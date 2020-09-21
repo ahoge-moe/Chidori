@@ -1,0 +1,26 @@
+{
+  "name": "chidori",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizo06/Chidori.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizo06/Chidori/issues"
+  },
+  "homepage": "https://github.com/wizo06/Chidori#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "logger": "github:wizo06/logger",
+    "request": "^2.88.2",
+    "toml-require": "^1.2.0"
+  }
+}
